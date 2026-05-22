@@ -1,0 +1,319 @@
+/* Reset */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  background-color: #fff;
+  color: #000;
+}
+
+
+/* Títulos */
+
+.section-title{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+/* Header */
+
+.nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  color: #000000;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hidden-title{
+  display: none;
+}
+
+.header-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Sección Productos */
+
+.section-productos{
+  padding: 60px 40px;
+}
+
+.cards-container{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content{
+  padding: 15px;
+}
+
+.card-content h3{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-content p{
+  font-size: 14px;
+  text-align: justify;
+  color: #494949;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+
+/* Reseñas */
+
+.section-resenias{
+  padding: 60px 40px;
+  background-color: #f8f8f8;
+}
+
+.resenias-container {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.resenia{
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  gap: 10px;
+  padding: 10px;
+}
+
+.resenia h3{
+  text-align: center;
+  font-size: 16px;
+  font-weight: thin;
+}
+
+.resenia p{
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: justify;
+  color: #494949;
+  margin-bottom: 10px;
+}
+
+.resenia:hover {
+  transform: scale(1.03);
+}
+
+
+/* Contacto */
+
+.section-contacto {
+  padding: 80px 20px;
+}
+
+.contacto-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+
+/* Info */
+
+.contact-info h3{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-info p{
+  margin: 10px 0;
+}
+
+.contact-info iframe {
+  width: 100%;
+  height: 250px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+/* Formulario */
+
+.contact-form h3{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-size: 16px;
+}
+
+.contact-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button {
+  width: fit-content;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+/* Contacto Responsive */
+
+@media (max-width: 768px) {
+  .contacto-container {
+      grid-template-columns: 1fr;
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.nav-footer a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.logo-container img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.copyright-container {
+  font-size: 14px;
+  text-align: center;
+}
+
+.redes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconos-redes {
+  display: flex;
+  gap: 10px;
+}
+
+.iconos-redes a {
+  text-decoration: none;
+}
+
+.iconos-redes img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 26px;
+  height: 24px;
+}  
