@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "nombre": "Alfajor de Maizena",
+    "precio": 2500,
+    "descripcion": "Alfajor clásico con tapas suaves, relleno de dulce de leche repostero con coco.",
+    "imagen": "img/maizena.jpg"
+  },
+
+  {
+    "id": 2,
+    "nombre": "Alfajor Marplatense",
+    "precio": 2500,
+    "descripcion": "Alfajor clásico con tapas de cacao, relleno de dulce de leche y baño de chocolate.",
+    "imagen": "img/clasico.jpg"
+  },
+
+  {
+    "id": 3,
+    "nombre": "Alfajor de Nuez",
+    "precio": 2500,
+    "descripcion": "Alfajor con tapas de cacao y nuez, relleno de dulce de leche y chocolate blanco.",
+    "imagen": "img/nuez.jpg"
+  },
+
+  {
+    "id": 4,
+    "nombre": "Alfajor Patagónico",
+    "precio": 2500,
+    "descripcion": "Tapas de cacao, relleno de crema bariloche con corazón de frutos rojos.",
+    "imagen": "img/patagonico.jpg"
+  },
+
+  {
+    "id": 5,
+    "nombre": "Media Docena Mixta",
+    "precio": 13500,
+    "descripcion": "Caja de 6 alfajores con variedades mixtas de nuestra selección artesanal.",
+    "imagen": "img/mediadocena.jpg"
+  },
+
+  {
+    "id": 6,
+    "nombre": "Docena Mixta",
+    "precio": 25200,
+    "descripcion": "Caja de 12 alfajores con variedades mixtas de nuestra selección artesanal.",
+    "imagen": "img/docena.jpg"
+  }
+]
