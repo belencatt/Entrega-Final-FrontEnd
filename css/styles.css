@@ -63,10 +63,9 @@ header {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 270px; 
+  height: 220px; 
   background-image: url('../img/banner.jpg'); 
   background-size: cover; 
-  background-position: center; 
   background-repeat: no-repeat;
 }
 
@@ -82,7 +81,7 @@ header img {
 /* Sección Productos y Tienda */
 
 .section-productos{
-  padding: 60px 40px;
+  padding: 20px 40px 60px 40px;
 }
 
 .tienda-container {
