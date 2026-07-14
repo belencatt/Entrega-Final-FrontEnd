@@ -3,7 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Miaufajores</title>
+
+        <!-- SEO -->
+        <title>Miaufajores | Alfajores Artesanales</title>
+        <meta name="description" content="Alfajores artesanales hechos a mano con mucho dulce de leche y chocolate de verdad.">
+        <meta name="keywords" content="alfajores artesanales, dulce de leche, chocolate, alfajor de maicena, repostería Buenos Aires, Miaufajores">
+        <meta name="author" content="Miaufajores">
+
         <link rel="stylesheet" href="css/styles.css">
 
         <!--Font-->
@@ -19,7 +25,6 @@
         <header>
              <div class="header-content">
                 <h1 class="hidden-title">Alfajores Artesanales</h1>
-                <img src="img/banner.jpg" alt="Banner de Miaufajores alfajores artesanales">
              </div>
              
              <!-- Barra de navegación -->
@@ -35,49 +40,34 @@
         
         <main>
 
-            <!-- Sección Productos-->
-             <section id="productos" class="section-productos">
+           <!-- Sección Productos y Carrito -->
+            <section id="productos" class="section-productos">
                 <h2 class="section-title">ALFAJORES</h2>
 
-                <div class="cards-container">
+                <div class="tienda-container">
+                    
+                    <div id="productos-container" class="cards-container">
+                    </div>
 
-                    <!--Card 1-->
-                    <div class="card">
-                        <img src="img/maizena.jpg" alt="Alfajor de maizena">
-                        <div class="card-content">
-                            <h3>Alfajor de Maizena</h3>
-                            <p>Alfajor clásico con tapas suaves, relleno de dulce de leche repostero con coco.</p>
+                    <aside class="carrito-box">
+                        <h3>🛒 Tu carrito (<span id="cantidad-carrito">0</span>)</h3>
+                        
+                        <ul id="items-carrito">
+                        </ul>
+
+                        <div class="carrito-total">
+                            <span>Total:</span>
+                            <strong id="total-carrito">$0</strong>
                         </div>
-                    </div>
 
-                    <!--Card 2-->
-                    <div class="card">
-                        <img src="img/clasico.jpg" alt="Alfajor marplatense">
-                        <div class="card-content">
-                            <h3>Alfajor Marplatense</h3>
-                            <p>Alfajor clásico con tapas de cacao, relleno de dulce de leche repostero y cobertura de chocolate semiamargo.</p>
+                        <div class="carrito-acciones">
+                            <button id="btn-vaciar">Vaciar</button>
+                            <button id="btn-pagar">Pagar</button>
                         </div>
-                    </div>
+                    </aside>
 
-                    <!--Card 3-->
-                    <div class="card">
-                        <img src="img/nuez.jpg" alt="Alfajor de nuez">
-                        <div class="card-content">
-                            <h3>Alfajor de Nuez</h3>
-                            <p>Alfajor con tapas de cacao y nuez, relleno de dulce de leche repostero y cobertura de chocolate blanco.</p>
-                        </div>
-                    </div>
-
-                    <!--Card 4-->
-                    <div class="card">
-                        <img src="img/patagonico.jpg" alt="Alfajor patagónico">
-                            <div class="card-content">
-                                <h3>Alfajor Patagónico</h3>
-                                <p>Alfajor con tapas de cacao, relleno de crema bariloche con corazón de frutos rojos y baño de chocolate semiamargo.</p>
-                            </div>
-                    </div>
                 </div>
-             </section>
+            </section>
 
              <!-- Sección Reseñas-->
              <section id="resenias" class="section-resenias">
@@ -174,15 +164,18 @@
                     <div class="redes-container">
                         <p>Seguinos</p>
                         <div class="iconos-redes">
-                            <a href="#">
-                                <img src="img/instagram.jpg" alt="Instagram">
+                            <a href="https://instagram.com" target="_blank" aria-label="Seguinos en Instagram">
+                                <img src="img/instagram.jpg" alt="Icono de Instagram">
                             </a>
-                            <a href="#">
-                                <img src="img/facebook.jpg" alt="Facebook">
+                            <a href="https://facebook.com" target="_blank" aria-label="Seguinos en Facebook">
+                                <img src="img/facebook.jpg" alt="Icono de Facebook">
                             </a>
                     </div>
                 </div>
              </div>
         </footer>
+
+        <script src="js/script.js"></script>
+
     </body>
 </html>
